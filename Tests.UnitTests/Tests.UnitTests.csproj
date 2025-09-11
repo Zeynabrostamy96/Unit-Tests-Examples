@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="TestFundamentals\" />
+    <ProjectReference Include="..\Tests.Src.UnitTests\Tests.Src.UnitTests.csproj" />
   </ItemGroup>
 
 </Project>
