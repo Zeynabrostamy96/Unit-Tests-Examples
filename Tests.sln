@@ -1,14 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Src.UnitTests", "Tests.Src.UnitTests\Tests.Src.UnitTests.csproj", "{10FCD1BF-F3F7-4A06-BE20-22B48394972A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.UnitTests", "Tests.UnitTests\Tests.UnitTests.csproj", "{1A0FB8E2-88F9-483C-9C64-C00B21A25972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{66C4277E-9152-4027-B7E1-069BA8D6E1A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10FCD1BF-F3F7-4A06-BE20-22B48394972A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FCD1BF-F3F7-4A06-BE20-22B48394972A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FCD1BF-F3F7-4A06-BE20-22B48394972A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FCD1BF-F3F7-4A06-BE20-22B48394972A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0FB8E2-88F9-483C-9C64-C00B21A25972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0FB8E2-88F9-483C-9C64-C00B21A25972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0FB8E2-88F9-483C-9C64-C00B21A25972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0FB8E2-88F9-483C-9C64-C00B21A25972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10FCD1BF-F3F7-4A06-BE20-22B48394972A} = {66C4277E-9152-4027-B7E1-069BA8D6E1A9}
+		{1A0FB8E2-88F9-483C-9C64-C00B21A25972} = {66C4277E-9152-4027-B7E1-069BA8D6E1A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83BED7F-105A-44DF-9BEA-3D6B59721F60}
 	EndGlobalSection
 EndGlobal
