@@ -17,7 +17,7 @@ namespace Tests.Src.UnitTests.Dependencies
             return true; 
         }
     }
-    public class PayPalPaymentMethod : PaymentMethod
+    public class PayPalPayment : PaymentMethod
     {
         public override bool Process(decimal amount)
         {
